@@ -11,5 +11,3 @@ ENV SPARK_APPLICATION_MAIN_CLASS my.main.Application
 ENV SPARK_APPLICATION_ARGS ""
 
 COPY submit.sh /
-
-CMD ["/bin/bash", "/submit.sh"]
